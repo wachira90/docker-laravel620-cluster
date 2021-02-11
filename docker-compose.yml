@@ -91,7 +91,7 @@ services:
 
   nginx1:
     container_name: nginx1
-    image: nginx:1.18.0
+    image: wachira90/nginx:1.18.0
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
