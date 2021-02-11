@@ -1,7 +1,15 @@
 # docker-laravel620-cluster
 docker-laravel620-cluster
 
-# file => conf.d/default.conf
+# main file config 
+
+nano conf.d/default.conf
+
+# permission
+
+cd html/
+
+sudo chmod -R 0777 storage/
 
 # for persistent connection php session
 
