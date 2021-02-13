@@ -9,7 +9,7 @@ cp html/.env.example html/.env
 
 nano html/.env
 
-APP_URL=http://192.168.4.42:8080
+APP_URL=http://192.168.4.42:7000
 
 php artisan key:generate
 
