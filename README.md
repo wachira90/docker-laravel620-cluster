@@ -38,8 +38,5 @@ hash $remote_addr consistent;
 # URL
 http://localhost:7000
 
-http://localhost:7000/user
 
-# modby => wachira90@yahoo.com
-
-# docker-laravel620-cluster
+## modby => wachira90@yahoo.com
