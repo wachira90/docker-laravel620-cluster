@@ -1,15 +1,23 @@
 # docker-laravel620-cluster
 docker-laravel620-cluster
 
-# main file config 
+# main file config nginx
 
 nano conf.d/default.conf
 
+cp html/.env.example html/.env
+
+nano html/.env
+
+APP_URL=http://192.168.4.42:8080
+
+php artisan key:generate
+
 # permission
 
-cd html/
+sudo chmod -R 755 html/
 
-sudo chmod -R 0777 storage/
+sudo chmod -R o+w html/storage
 
 # for persistent connection php session
 
