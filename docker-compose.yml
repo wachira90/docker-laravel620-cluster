@@ -3,7 +3,7 @@ version: '3'
 services:
   php1:
     container_name: php1
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -14,7 +14,7 @@ services:
 
   php2:
     container_name: php2
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -25,7 +25,7 @@ services:
 
   php3:
     container_name: php3
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -36,7 +36,7 @@ services:
 
   php4:
     container_name: php4
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -47,7 +47,7 @@ services:
 
   php5:
     container_name: php5
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -58,7 +58,7 @@ services:
 
   php6:
     container_name: php6
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -69,7 +69,7 @@ services:
 
   php7:
     container_name: php7
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -80,7 +80,7 @@ services:
 
   php8:
     container_name: php8
-    image: wachira90/php:7.2
+    image: wachira90/php:7.3
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
